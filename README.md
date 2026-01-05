@@ -27,7 +27,7 @@ source .venv/bin/activate
 ## Usage
 ```python
 import torch
-from MoMoE import MoMoE
+from momoe import MoMoE
 momoe = MoMoE(
     embedding_dim=2048, 
     intermediate_dim=1024,
